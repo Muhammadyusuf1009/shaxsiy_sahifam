@@ -1,0 +1,50 @@
+body{
+    background: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.kun{
+    color: white;
+    background: black;
+}
+#kun{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#kun:active{
+    color: white;
+    width: 60px;
+    height: 60px;
+    background: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#tun{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#tun:active{
+    color: white;
+    width: 60px;
+    height: 60px;
+    background: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
